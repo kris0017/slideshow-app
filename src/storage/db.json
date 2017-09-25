@@ -1,0 +1,54 @@
+{
+  "countries": [
+    {
+      "image": "australia.jpg",
+      "name": "Australia",
+      "description": "Australia's natural beauty is unrivaled—from the Great Barrier Reef to the wild isolation of the Outback to the winelands of Victoria. Witnessing the majesty of Uluru should be on every traveler's bucket list, whether viewed from above by helicopter or at the base during the technicolor sunset. Another must-see? Tasmania. The island state's mountain wilderness and pristine coastline are truly unparalleled."
+    },
+    {
+      "image": "brazil.jpg",
+      "name": "Brazil",
+      "description": "There is no shortage of grandeur in Brazil, whether you're standing below the horseshoe-shaped falls of Iguaçu, kayaking through the incomparable Amazon, or looking out from the peak of Corcovado in Rio de Janeiro. Fernando de Noronha, an archipelago off the northeast coast, features some of the best beaches in the country. Lençóis Maranhenses National Park boasts blindingly white sand dunes juxtaposed against turquoise lagoons. Then there's the biodiversity—the greatest biodiversity on the planet, to be exact. It's not uncommon to spot jaguars, spider monkeys, piranhas, giant water lilies, and mangroves (among several other million species)."
+    },
+    {
+      "image": "mexico.jpg",
+      "name": "Mexico",
+      "description": "Home to 67 national parks, more than 5,000 miles of coastline, and landscapes ranging from deserts to snow-capped volcanoes, Mexico ranks high on this list for a reason. Oaxaca lays claim to wild, crowd-free beaches and Hierve el Agua, a set of natural rock formations and mineral springs. Down in the southern state of Chiapas, the Sumidero Canyon astounds with 3,000-foot cliff walls, caves, and waterfalls. Mexico also takes great lengths to protect its wildlife: the Monarch Butterfly Biosphere Reserve northwest of Mexico City welcomes millions of butterflies every autumn, while the Whale Sanctuary of El Vizcaino is an important reproduction site for grey and blue whales."
+    },
+    {
+      "image": "costa-rica.jpg",
+      "name": "Costa Rica",
+      "description": "It's easy to sink into the pura vida (pure life) when you're surrounded by misty waterfalls, deserted beaches, and protected jungles. In fact, more than a quarter of the Costa Rica enjoys some form of environmental protection. Cocos Island National Park, the only island in the eastern Pacific with a rainforest, is a world-class diving destination replete with hammerhead sharks, giant manta rays, sea turtles, and dolphins. La Amistad National Park is another uniquely diverse site, with cloud forests, glacial valleys, and a rare tropical alpine grassland (say that five times fast). It's also home to Cerro Chirripó, the highest mountain in Costa Rica."
+    },
+    {
+      "image": "peru.jpg",
+      "name": "Peru",
+      "description": "Machu Picchu's panoramic views and mysterious stone walls more than validate a plane ticket to Peru, but the country has more to offer than just Incan ruins. The Colca Canyon, one of the deepest canyons in the world, is known for its terraced agriculture and epic birdwatching (find everything from flamingos to giant hummingbirds here). And don't forget about the shimmering, deep blue waters of Lake Titicaca on the border of Peru and Bolivia."
+    },
+    {
+      "image": "china.jpg",
+      "name": "China",
+      "description": "China is the fourth largest country in the world, and it sure does put its massive size to good use. "Scenic" doesn't come close to describing the Wulingyuan Scenic Area, with sandstone pillars that stretch taller than the Empire State Building's midpoint. The iconic Li River is like an artist's masterpiece come to life, featuring karst hills and the otherworldly Reed Flute Cave. And the rapeseed fields (canola) in Luoping County transform the world into an endless sea of yellow for several months out of the year."
+    },
+    {
+      "image": "thailand.jpg",
+      "name": "Thailand",
+      "description": "The number of foreign visitors to Thailand has doubled in the past ten years, and it's easy to understand why. There are literally hundreds of islands offering something for every type of traveler, whether it's the lush jungles of Ko Kut or the crystal-clear diving waters of Ko Tao. To catch sight of wild elephants and tigers, dramatic waterfalls, and some of the world's oldest rainforests, venture inland to the wondrous Khao Sok National Park."
+    },
+    {
+      "image": "tanzania.jpg",
+      "name": "Tanzania",
+      "description": "Tanzania is home to two of Africa's biggest and best natural wonders: Mount Kilimanjaro and the Serengeti. Kilimanjaro is the highest point in the continent, with its snow-capped peak standing in isolation above the surrounding savannah. And the Serengeti is the place to spot animals in the wild; UNESCO dubs the annual migration of wildebeest, gazelles and zebras to their watering holes "one of the most impressive natural events in the world.""
+    },
+    {
+      "image": "spain.jpg",
+      "name": "Spain",
+      "description": "Aside from its world-class beaches (like Playa de Las Catedrales in Galicia, pictured), Spain is home to 15 national parks, including five in the Canary and Balearic Islands. Doñana National Park is home to five threatened bird species, plus scenic marshes and sand dunes. Teide National Park has the tallest mountain in the country (Mount Teide) and third tallest volcanic structure in the world (Pico Viejo)."
+    },
+    {
+      "image": "usa.jpg",
+      "name": "The United States of America",
+      "description": "You could spend a lifetime exploring the sites of America, all as beautiful as they are diverse. Hawaii's vertical Na'Pali Coast is easily one of the most beautiful coastlines on the planet. Denali National Park in Alaska is worth braving the extreme low temperatures. And perhaps you've heard of a charming little tourist destination known as the Grand Canyon?"
+    }
+  ]
+}
