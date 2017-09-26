@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { Modal, ModalBody } from 'reactstrap'
 
+/* Modal that displays text, that he received from parent */
 export default class InfoModal extends Component {
 
   render() {
-    const { isOpen, toggle } = this.props;
     return (
-      <Modal isOpen={ isOpen } toggle={ toggle } size="sm" className="info-modal">
+      <Modal isOpen={ this.props.isOpen } toggle={ this.props.toggle } size="sm" className="info-modal">
         <ModalBody>  
           { this.props.description }
         </ModalBody>

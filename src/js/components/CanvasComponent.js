@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { randomHexColor } from '../helpers'
 
+/* Canvas that updated gradient with random colors */
 export default class CanvasComponent extends Component {
   constructor() {
     super();
