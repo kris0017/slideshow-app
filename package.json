@@ -19,7 +19,7 @@
     "popper.js": "^1.12.5",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-transition-group": "^1.1.2",
+    "react-transition-group": "=1.1.2",
     "reactstrap": "^4.8.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.9",
