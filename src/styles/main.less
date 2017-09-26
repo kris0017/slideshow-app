@@ -3,18 +3,36 @@
 body {
   margin: 0;
   padding: 0;
-  min-width: 960px;
-  height: 100%;
   font-family: sans-serif;
+ 
+}
+
+.canvas {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  opacity: 0.25;
 }
 
 .app {
   
-    .canvas {
-      margin-top: 5vh;
-      width: 80vw;
-      height: 80vh;
-    }
+    
  
   
 } 
+
+.content-container {
+  margin: 50px auto; 
+  width: 100%;
+  position: relative;
+  .image {
+    position: absolute;
+    display: block;
+    top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    max-height: 90%;
+  }
+}

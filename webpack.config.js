@@ -58,11 +58,15 @@ module.exports = {
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i, 
-        use: 'file-loader?name=[name].[ext]&publicPath=images/&outputPath=images/'
+        use: 'url-loader?limit=8192'
       },
       {
-        test: /\.(html|ico|json)?$/, 
+        test: /\.(html|ico)?$/, 
         loader: 'file-loader?name=[name].[ext]'
+      },
+      {
+        test: /\.json?$/, 
+        loader: 'json-loader?name=[name].json'
       },
       lessLoader,
       cssLoader
