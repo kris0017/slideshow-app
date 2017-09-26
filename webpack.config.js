@@ -5,15 +5,14 @@ const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 
 const debug = (process.env.NODE_ENV || '').trim() == 'development';
 
-
 const cssLoader = debug ? { 
     test: /\.css$/,
     loaders: ['style-loader', 'css-loader'], 
   } : { 
     test: /\.css$/,
     use: ExtractTextPlugin.extract({
-    use: ['css-loader'], 
-  })
+      use: ['css-loader'], 
+    })
 };
 const lessLoader = debug ? { 
   test: /\.less$/,
@@ -29,7 +28,14 @@ const lessLoader = debug ? {
 module.exports = {
   context: path.join(__dirname, 'src'),
   devtool: debug  ? 'inline-sourcemap' : false,
-  entry: {
+  entry:  debug ?  
+  {
+    'index.min.js' : [
+      './js/index.js',
+      './index.html',
+     './styles/main.less'
+    ]
+  } : {
     'index.min.js' : [
       './js/index.js',
       './index.html',
