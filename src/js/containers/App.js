@@ -33,8 +33,8 @@ export default class App extends Component {
 
   render() {
     return (
-      <Container fluid>
-        <Row className="app justify-content-md-center">
+      <Container fluid >
+        <Row className="justify-content-md-center">
           <Col md="10">
             <div className="content-container">
               <CanvasComponent ref={instance => { this.canvas = instance; }} />
@@ -43,11 +43,15 @@ export default class App extends Component {
           </Col>
           
         </Row>
-        <Row className="app">
-          <Col md="10" className="offset-md-4">
-            <Button color="info" size="lg" onClick={ this.previous }>&lt;</Button>
-            <h6>{ db.countries[this.state.countryIndex].name }</h6>
-            <Button color="info" size="lg" onClick={ this.next }>&gt;</Button>
+        <Row className="justify-content-center btn-title-container">
+          <Col md="1" className="col-auto">
+            <Button className="prev-btn" color="info" size="lg" onClick={ this.previous }>&lt;</Button>
+          </Col>
+          <Col md="8" className="col-auto">
+            <h6 className="vertical-center">{ db.countries[this.state.countryIndex].name }</h6>
+          </Col>
+          <Col md="1" className="col-auto">
+            <Button className="next-btn" color="info" size="lg" onClick={ this.next }>&gt;</Button>
           </Col>
         </Row>
       </Container>
